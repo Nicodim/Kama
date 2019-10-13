@@ -1,0 +1,36 @@
+.app-wrapper {
+  width:1200px;
+  display: grid;
+  grid-template-areas:
+"h h"
+"n c";
+  grid-template-rows: 50px 1fr;
+  grid-auto-columns: 2fr 10fr;
+  /*grid-gap: 10px;*/
+}
+
+.main-header {
+grid-area: h;
+  background-color: #3e60e9;
+}
+.main-header img {
+  margin: 0 auto;
+  width: 60px;
+}
+.main-nav {
+  grid-area: n;
+  background-color: #13e95f;
+}
+.nav__list {
+  list-style: none;
+  padding: 0;
+}
+.content {
+  grid-area: c;
+  background-color: #e930de;
+}
+
+.post__list {
+  list-style: none;
+  padding: 0;
+}
