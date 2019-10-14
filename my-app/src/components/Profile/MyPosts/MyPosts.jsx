@@ -11,8 +11,8 @@ const MyPosts = () => {
                 <button>Add post</button>
             </div>
         <div className={s.post__list}>
-           <Post />
-            <Post />
+            <Post massage={'Hi world!'} like={8}/>
+            <Post massage={'UUUU SUKA'} like={14}/>
             <Post />
             <Post />
             <Post />
