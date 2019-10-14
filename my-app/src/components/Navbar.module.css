@@ -1,0 +1,12 @@
+.mainNav {
+    grid-area: n;
+    background-color: #13e95f;
+}
+.nav__list {
+    list-style: none;
+    padding: 0;
+}
+
+.nav__option {
+    color: white;
+}

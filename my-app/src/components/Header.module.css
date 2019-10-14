@@ -1,0 +1,10 @@
+
+.mainHeader {
+    grid-area: h;
+    background-color: #3e60e9;
+}
+.mainHeader img {
+    margin: 0 auto;
+    width: 60px;
+}
+
