@@ -1,0 +1,13 @@
+.content {
+    grid-area: c;
+    background-color: #e930de;
+}
+
+.post__list {
+    list-style: none;
+    padding: 0;
+}
+.post__item img {
+    width: 60px;
+    border-radius: 40px;
+}
