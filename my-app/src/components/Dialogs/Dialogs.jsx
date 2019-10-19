@@ -1,20 +1,33 @@
 import React from 'react';
 import s from './Dialogs.module.css';
+import {NavLink} from "react-router-dom";
+
+const DialogItem = (props) => {
+    return (
+        <div className={s.content__item}><NavLink to={"/dialogs/" + props.id}>{props.name}</NavLink></div>
+    )
+}
+
+const Massage = (props) => {
+    return (
+        <div className={s.massage__item}>{props.massage}</div>
+    )
+}
 
 const Dialogs = () => {
     return (
         <section className={s.dialogs}>
-            <ul className={s.content__list}>
-                <li className={s.content__item}>Pupa</li>
-                <li className={s.content__item}>Lupa</li>
-                <li className={s.content__item}>Pupa</li>
-                <li className={s.content__item}>Lupa</li>
-            </ul>
-            <ul className={s.massage__list}>
-                <li className={s.massage__item}>Шутки за 300</li>
-                <li className={s.massage__item}>Шутки за 300</li>
-                <li className={s.massage__item}>Шутки за 300</li>
-            </ul>
+            <div className={s.content__list}>
+                <DialogItem name="Pupa" id="1"/>
+                <DialogItem name="Lupa" id="2"/>
+                <DialogItem name="Pupa" id="3"/>
+                <DialogItem name="Lupa" id="4"/>
+            </div>
+            <div className={s.massage__list}>
+                <Massage massahe="шутки за триста"/>
+                <Massage massahe="шутки за триста"/>
+                <Massage massahe="шутки за триста"/>
+            </div>
 
         </section>
     )

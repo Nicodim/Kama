@@ -2,7 +2,9 @@
     grid-area: c;
     background-color: #e930de;
 }
-
+.postBlock {
+    padding: 10px;
+}
 .post__list {
     list-style: none;
     padding: 0;
