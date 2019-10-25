@@ -35,18 +35,22 @@
   <component name="ProjectId" id="1RxeEco6FChA7rVor3IBhHy5wda" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/my-app/src/components/Profile/MyPosts/Post" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\KM\my-app\src\components\news" />
       <recent name="C:\KM\my-app\src\components\Profile" />
       <recent name="C:\KM\my-app\src\components\Nav" />
       <recent name="C:\KM\my-app\src\components\Header" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\KM\my-app\src\components\Profile\MyPosts\Post" />
-      <recent name="C:\KM\my-app\src\components\Profile\Post" />
-      <recent name="C:\KM\my-app\src\components" />
+      <recent name="C:\KM\my-app\src\components\Profile\ProfileInfo" />
+      <recent name="C:\KM\my-app\src\components\Settings" />
+      <recent name="C:\KM\my-app\src\components\Music" />
+      <recent name="C:\KM\my-app\src\components\news" />
+      <recent name="C:\KM\my-app\src\components\Dialogs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -73,7 +77,13 @@
       <updated>1570613064476</updated>
       <workItem from="1570613073498" duration="546000" />
       <workItem from="1570867090073" duration="5064000" />
-      <workItem from="1570967543658" duration="13301000" />
+      <workItem from="1570967543658" duration="19982000" />
+      <workItem from="1571164055633" duration="9156000" />
+      <workItem from="1571486562493" duration="7970000" />
+      <workItem from="1571810550964" duration="4676000" />
+      <workItem from="1571819247477" duration="2660000" />
+      <workItem from="1571831428408" duration="56000" />
+      <workItem from="1572017103350" duration="2595000" />
     </task>
     <servers />
   </component>

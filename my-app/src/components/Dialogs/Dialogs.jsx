@@ -24,6 +24,7 @@ const Dialogs = (props) => {
         {id: 5, name: 'Boi'}
 
     ]
+    let dialogElement = dialogsData.map(d =>  <DialogItem name={d.name} id={d.id}/>);
 
     let MassageData = [
         {id: 1, massage: 'Ti cho pes??'},
@@ -33,19 +34,23 @@ const Dialogs = (props) => {
         {id: 5, massage: 'taki da'}
 
     ]
+let massagesElement = MassageData.map(m => <Massage massage={m.massage} id={m.id}/> );
+    
     return (
         <section className={s.dialogs}>
             <div className={s.content__list}>
-                <DialogItem name={dialogsData[0].name} id={dialogsData[0].id}/>
-                <DialogItem name={dialogsData[1].name} id={dialogsData[1].id}/>
-                <DialogItem name={dialogsData[2].name} id={dialogsData[2].id}/>
-                <DialogItem name={dialogsData[3].name} id={dialogsData[3].id}/>
-                <DialogItem name={dialogsData[3].name} id={dialogsData[4].id}/>
+                { dialogElement }
+                {/*<DialogItem name={dialogsData[0].name} id={dialogsData[0].id}/>*/}
+                {/*<DialogItem name={dialogsData[1].name} id={dialogsData[1].id}/>*/}
+                {/*<DialogItem name={dialogsData[2].name} id={dialogsData[2].id}/>*/}
+                {/*<DialogItem name={dialogsData[3].name} id={dialogsData[3].id}/>*/}
+                {/*<DialogItem name={dialogsData[3].name} id={dialogsData[4].id}/>*/}
             </div>
             <div className={s.massage__list}>
-                <Massage massage={MassageData[0].massage} id={MassageData[0].id}/>
-                <Massage massage={MassageData[2].massage} id={MassageData[2].id}/>
-                <Massage massage={MassageData[3].massage} id={MassageData[3].id}/>
+                { massagesElement }
+                {/*<Massage massage={MassageData[0].massage} id={MassageData[0].id}/>*/}
+                {/*<Massage massage={MassageData[2].massage} id={MassageData[2].id}/>*/}
+                {/*<Massage massage={MassageData[3].massage} id={MassageData[3].id}/>*/}
             </div>
 
         </section>
