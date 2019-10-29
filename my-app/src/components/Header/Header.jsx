@@ -1,8 +1,9 @@
 import React from 'react';
-
+import s from './Header.module.css';
 const Header = () => {
-    return <header className='main-header'>
+    return <header className={s.mainHeader}>
         <img src='https://about.canva.com/wp-content/uploads/sites/3/2016/08/logos-1.png'/>
     </header>
 }
 export default Header;
+

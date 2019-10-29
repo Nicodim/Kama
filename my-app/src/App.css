@@ -6,31 +6,11 @@
 "n c";
   grid-template-rows: 50px 1fr;
   grid-auto-columns: 2fr 10fr;
-  /*grid-gap: 10px;*/
+  grid-gap: 10px;
 }
-
-.main-header {
-grid-area: h;
-  background-color: #3e60e9;
-}
-.main-header img {
-  margin: 0 auto;
-  width: 60px;
-}
-.main-nav {
-  grid-area: n;
-  background-color: #13e95f;
-}
-.nav__list {
-  list-style: none;
-  padding: 0;
-}
-.content {
+.app-wrapper-content {
   grid-area: c;
-  background-color: #e930de;
+  background-color: #e99800;
 }
 
-.post__list {
-  list-style: none;
-  padding: 0;
-}
+

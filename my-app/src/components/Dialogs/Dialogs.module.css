@@ -1,0 +1,12 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+.content__list {
+    list-style: none;
+    padding: 0;
+}
+.massage__list {
+    list-style: none;
+    padding: 0;
+}

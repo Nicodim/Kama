@@ -1,0 +1,24 @@
+.mainNav {
+    grid-area: n;
+    background-color: #13e95f;
+}
+.nav__list {
+    list-style: none;
+    padding: 0;
+}
+
+.nav__option {
+    color: white;
+}
+
+.nav__option a{
+    text-decoration: none;
+    color: #e0e97f;
+}
+.nav__option a:hover {
+    color: #d9e924;
+}
+
+.nav__option a.active {
+    color: #0002e9;
+}
